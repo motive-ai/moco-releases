@@ -1,3 +1,28 @@
+## 7.2.0 (5/22/2020) ##
+### Features ###
+* joint calibration program
+* config read/write utilities (moco_config_reader and moco_config_maker)
+### Bugfixes ###
+* Fix memory leak upon release of USB device
+### Notes ###
+* This release splits the graphical apps into a separate "extras" package
+
+## 7.1.1 (5/15/2020) ##
+### Bugfixes ###
+* (firmware) Include all error string messages. Fixes possible out-of-bounds access
+
+## 7.1.0 (5/7/2020) ##
+### Features ###
+* ChainSim - easy connection to Simulator instances
+* Simulator encoders match hardware resolution
+* (firmware) add warning if encoder values don't match
+
+### Bugfixes ###
+* (firmware) output calibrated sensor data in SystemData packet
+
+#### Notes ####
+* Default port for simulator is moved to 6610, 6611
+
 ## 7.0.3 (2/17/2020) ##
 ### Bugfixes ###
 * Transmit commutation warning if motor does not have phase alignment
